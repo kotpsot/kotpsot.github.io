@@ -52,7 +52,7 @@
     --primary-630: #030007f3;
     --primary-600: transparent;
     --text-link: var(--color1);
-    --text-normal: var(--textchatcolor);
+    --text-normal: var(--textchatcolors);
     --text-brand: var(--color2);
     --status-danger: var(--color2);
     --scrollbar-auto-thumb: var(--color2);
