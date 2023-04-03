@@ -73,13 +73,13 @@
     margin-right: 0px;
     margin-bottom: 20px;
     margin-left: 0px;
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
 }
 
 .scrollableContainer-15eg7h {
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
     margin-right: -12px;
@@ -89,7 +89,7 @@
 
 .scroller-kQBbkU {
     background: transparent;
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
     bottom: 17px;
@@ -98,7 +98,7 @@
     top: 7px;
 }
 .scroller-1ox3I2 {
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
     margin-bottom: 5px;
@@ -107,7 +107,7 @@
 }
 
 .container-2o3qEW {
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
     margin-top: 7px;
@@ -115,7 +115,7 @@
     height: 96.4%;
 }
 .container-ZMc96U {
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
     margin-left: 5px;
@@ -123,32 +123,52 @@
 }
 
 .header-3OsQeK {
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
 }
 
 .scroller-WSmht3 {
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
     margin-bottom: 5px;
 }
 
 .searchBar-3TnChZ {
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
     margin-bottom: 5px;
 }
 
 .searchResultsWrap-5RVOkx {
-    border: 1px solid #3a3f45;
+    border: var(--bordercolor);
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
     height: 96.5%;
     margin-right: 6px;
     margin-top: 7px;
+}
+
+.peopleColumn-1wMU14 {
+    border: var(--bordercolor);
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    margin-top: 7px;
+    margin-bottom: 19px;
+    margin-left: 5px;
+}
+
+.scroller-hE2gWq {
+    border: var(--bordercolor);
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+    margin-top: 7px;
+    margin-bottom: 19px;
+    margin-left: 5px;
+    width: 97%;
+    height: 97%;
 }
 
 .base-2jDfDU {
