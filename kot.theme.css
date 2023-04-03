@@ -36,7 +36,7 @@
     --brand-experiment: var(--color2);
     --button-secondary-background: var(--color2);
     --channeltextarea-background: transparent;
-    --channels-default: #fffdff81;
+    --channels-default: var(--textchannelcolors);
     --channel-icon: var(--color1);
     --header-primary: var(--color1);
     --header-secondary: #eeeeeef3;
