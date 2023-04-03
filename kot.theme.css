@@ -59,6 +59,7 @@
     --scrollbar-thin-thumb: var(--background-tertiary);
     --scrollbar-thin-track: var(--background-primary);
     --scrollbar-auto-track: var(--background-primary);
+    --TB-header-padding: 0px;
 }
 
 .messagesPopoutWrap-3zryHW, .contentWrapper-3vHNP2, .wrapper-3u51GQ, .container-18GwIk, .userPopoutInner-1hXSeY:before, .overlayBackground-1KgwVi {
