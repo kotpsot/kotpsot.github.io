@@ -34,6 +34,9 @@
     --background-message-highlight: var(--color2);
     --bg-overlay-selected: var(--color2);
     --brand-experiment: var(--color2);
+    --button-danger-background: var(--color2);
+    --button-danger-background-hover: var(--color2);
+    --button-danger-background-active: var(--color2);
     --button-secondary-background: var(--color2);
     --channeltextarea-background: transparent;
     --channels-default: var(--textchannelcolors);
@@ -54,6 +57,7 @@
     --text-link: var(--color1);
     --text-normal: var(--textchatcolors);
     --text-brand: var(--color2);
+    --text-positive: var(--color2);
     --status-danger: var(--color2);
     --scrollbar-auto-thumb: var(--color2);
     --scrollbar-thin-thumb: var(--background-tertiary);
@@ -67,6 +71,15 @@
 
 .mainCard-3KBsBI, .container-2qVG6q:hover {
     background-color: var(--background-modifier-selected);
+}
+
+.colorDefault-2_rLdz.focused-3LIdPu{
+    background-color: var(--color2);
+}
+
+.colorDanger-3umuSx:active:not(.hideInteraction-1vQrZJ) {
+    background-color: var(--color2);
+    color: var(--white-500);
 }
 
 .panels-3wFtMD {
