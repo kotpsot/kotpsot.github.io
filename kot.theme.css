@@ -69,7 +69,7 @@
     background: var(--popupcolors);
 }
 
-.mainCard-3KBsBI, .container-2qVG6q:hover {
+.mainCard-3KBsBI {
     background-color: var(--background-modifier-selected);
 }
 
@@ -80,6 +80,10 @@
 .colorDanger-3umuSx:active:not(.hideInteraction-1vQrZJ) {
     background-color: var(--color2);
     color: var(--white-500);
+}
+
+.unreadMentionsIndicatorBottom-3RJMnQ {
+     display: none;
 }
 
 .panels-3wFtMD {
