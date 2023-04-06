@@ -52,7 +52,7 @@
     --modal-background: #030007f3;
     --modal-footer-background: #030007f3;
     --profile-avatar-border-color: #00000093;
-    --primary-630: #030007f3;
+    --primary-630: var(--popupcolors);
     --primary-600: transparent;
     --text-link: var(--color1);
     --text-normal: var(--textchatcolors);
