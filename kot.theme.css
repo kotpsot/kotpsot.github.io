@@ -6,7 +6,7 @@
     background-position: center;
     background-size: 1920px auto;
     text-rendering: auto;
-    filter: blur( var(--bg-blur) ) brightness( var(--bg-opacity) );
+    filter: hue-rotate( var(--bg-colors) ) blur( var(--bg-blur) ) brightness( var(--bg-opacity) ); 
 }
 
 .layers-OrUESM{
@@ -65,7 +65,7 @@
     --scrollbar-auto-track: var(--background-primary);
 }
 
-.messagesPopoutWrap-3zryHW, .contentWrapper-3vHNP2, .wrapper-3u51GQ, .container-18GwIk, .userProfileInner-3F03PX, .overlayBackground-1KgwVi {
+.messagesPopoutWrap-3zryHW, .contentWrapper-3vHNP2, .wrapper-3u51GQ, .container-18GwIk, .userProfileInner-3F03PX, .overlayBackground-1KgwVi, .popout-15UxD6 {
     background: var(--popupcolors);
 }
 
@@ -84,6 +84,14 @@
 
 .unreadMentionsIndicatorBottom-3RJMnQ {
      display: none;
+}
+
+.jumpToPresentBar-1cEnH0{
+    bottom: 19px;
+}
+
+.newMessagesBar-1hF-9G{
+    top: 1%;
 }
 
 .panels-3wFtMD {
