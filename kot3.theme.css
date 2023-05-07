@@ -1,0 +1,88 @@
+@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+@import url(https://discordstyles.github.io/Addons/windows-titlebar.css);
+
+.layers-OrUESM {
+    margin: 10px
+}
+
+.theme-dark {
+  --header-primary: #5e61ff;
+  --header-secondary: #d8c9ff;
+  --background-primary: #080228;
+  --background-secondary: #070221;
+  --background-secondary-chat: #2f3136a0;
+  --background-secondary-alt: #080228;
+  --background-tertiary: #080228;
+  --background-accent: #130a2e;
+  --background-floating: #080228;
+  --background-message-hover: #0e0c1c;
+  --background-modifier-hover: #0e0c1c;
+  --background-modifier-active: #2c265c;
+  --background-modifier-selected: #331982;
+  --background-modifier-accent: #241c52;
+  --text-normal: #d8c9ff;
+  --text-muted: #5e61ff;
+  --interactive-normal: #8945ff;
+  --interactive-hover: #331982;
+  --interactive-active: #8c71de;
+  --interactive-muted: #5e61ff;
+  --scrollbar-auto-thumb: #8945ff;
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: var(--background-primary);
+  --scrollbar-auto-track: var(--background-primary);
+  --channeltextarea-background: #1e006b;
+  --channel-text-area-placeholder: #5e61ff;
+  --text-link: #875eff;
+  --text-danger: #b01e45;
+  --channel-icon: #8d85f8;
+  --chat-background: #080228;
+  --status-danger: #8d85f8;
+  --primary-500: #8c42fc;
+  --primary-100: #d8c9ff;
+  --primary-200: #d8c9ff;
+  --primary-300: #6052ff;
+  --primary-360: #8563ff;
+  --primary-400: #6052ff;
+  --primary-600: #080228;
+  --primary-630: #12111b;
+  --primary-660: #080228;
+  --primary-700: #080128;
+  --primary-800: #080228;
+  --red-500: #6052ff;
+  --green-360: #6052ff;
+  --button-danger-background: #6052ff;
+  --button-danger-background-active: #6052ff;
+  --info-warning-foreground: #6052ff;
+  --background-mentioned: #6152ff3f;
+  --button-positive-background: #6052ff;
+  --button-positive-background-active: #6052ff;
+  --button-positive-background-hover: #6052ff;
+  --status-positive-background: #6052ff;
+  --text-positive: #6052ff;
+  --brand-experiment: var(--background-accent);
+  --search-popout-option-fade: transparent;
+  --font-primary: "Montserrat";
+  --font-display: "Montserrat";
+  --HSL-server-icon-size: 55px;
+  --HSL-server-spacing: 5px
+  
+}
+
+.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {
+    background-color: #4831bd;
+}
+
+.theme-dark .list-3FIpnh>div:first-child, .header-2e2w0L, .pageBody-23bo4p, .theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
+    background-color: #070221;
+}
+
+.forumOrHome-2VTX6r {
+    --__header-bar-background: transparent;
+}
+
+.scroller-2MALzE {
+    background: var(--background-secondary);
+}
