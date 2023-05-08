@@ -47,7 +47,7 @@
   --primary-360: #8563ff;
   --primary-400: #6052ff;
   --primary-600: #080228;
-  --primary-630: #12111b;
+  --primary-630: #080228;
   --primary-660: #080228;
   --primary-700: #080128;
   --primary-800: #080228;
@@ -86,3 +86,4 @@
 .scroller-2MALzE {
     background: var(--background-secondary);
 }
+
