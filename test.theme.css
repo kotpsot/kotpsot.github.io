@@ -1,3 +1,12 @@
+/**
+ * @name test
+ * @author kot
+ * @version 1.0.1
+ * @description test kot theme
+ * @source https://github.com/kotpsot/kotpsot.github.io/edit/main/test.theme.css
+ * @updateUrl https://raw.githubusercontent.com/kotpsot/kotpsot.github.io/main/test.theme.css
+*/
+
 @import url("https://mrtipson.github.io/DiscordCSS/css/server-bar.css");
 @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
 
