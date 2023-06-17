@@ -14,9 +14,10 @@
   background: transparent !important;
   }
 
-body{
+.appMount-2yBXZl, body{
     background: url(https://i.imgur.com/RlYUcAN.jpg);
     background-size: cover;
+    text-rendering: optimizeLegibility;
 }
 
 .theme-dark,.theme-light {
