@@ -14,7 +14,8 @@
   background: transparent !important;
   }
 
-.appMount-2yBXZl, body{
+body,
+body::after{
     background: url(https://i.imgur.com/RlYUcAN.jpg);
     background-size: cover;
     text-rendering: optimizeLegibility;
@@ -79,7 +80,7 @@
 }
 
 .winButton-3UMjdg{
-    box-shadow: 0 0 3px 1px #b6b3b373;
+    
     width: 30px;
     height: 40px;
     margin-top: 30px;
@@ -172,4 +173,15 @@
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+[aria-label^="Add Super Reaction"],
+#message-add-reaction-1,
+#super-reaction-picker-tab,
+[class^="burstEmojiSection-"],
+[aria-label^="Reaction Picker Categories"],
+[class^="reactionDefault-"][aria-label*="super reaction"],
+[class^="reactionSelected-"][aria-label*="super reaction"],
+[class^="reactions-"] > div > [style*="background:"] {
+    display: none !important;
 }
