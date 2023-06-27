@@ -7,181 +7,21 @@
  * @updateUrl https://raw.githubusercontent.com/kotpsot/kotpsot.github.io/main/test.theme.css
 */
 
-@import url("https://mrtipson.github.io/DiscordCSS/css/server-bar.css");
-@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
-
-.chat-2ZfjoI,.container-3wLKDe {
-  background: transparent !important;
-  }
-
-body,
-body::after{
-    background: url(https://i.imgur.com/RlYUcAN.jpg);
-    background-size: cover;
-    text-rendering: optimizeLegibility;
-}
-
-.theme-dark,.theme-light {
-    --background-accent: #adadad98;
-    --background-primary: #11111100;
-    --background-secondary: #11111100;
-    --background-secondary-alt: #11111100;
-    --background-tertiary: transparent;
-    --background-floating: #000000dc;
-    --background-mentioned: var(--popupcolors);
-    --background-mentioned-hover: var(--popupcolors);
-    --background-message-highlight: var(--popupcolors);
-    --brand-experiment-10a: var(--popupcolors);
-    --search-popout-option-fade: transparent;
-    --search-popout-option-fade-hover: #adadad;
-    --background-message-hover: #22222200;
-    --background-modifier-selected: #00000080;
-    --background-modifier-hover: #202020dc;
-    --background-modifier-active: #252525dc;
-    --scrollbar-auto-track: transparent;
-    --header-primary: #adadad;
-    --header-secondary: #848992fd;
-    --popupcolors: #000000e7;
-    --windowscolor: #000000a9;
-    --text-normal: #ffffffc9;
-    --text-muted: #cac7ca8f;
-    --green-330: #504f4f65;
-    --green-360: #b6b3b373;
-    --green-430: #adadad;
-    --brand-500: var(--popupcolors);
-    --primary-600: #575757;
-    --primary-630: #000000dc;
-    --font-primary: "Montserrat";
-    --font-display: "Montserrat";
-    --font-headline: "Montserrat";
-
-}
-
-.content-1jQy2l,.theme-dark .themed-Hp1KC_,.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB{
-    background: var(--windowscolor);
-}
-
-.sidebar-1tnWFu{
-    height: 96.5%;
-    margin-top: 10px;
-    margin-left: 10px;
-    background: var(--windowscolor);
-    box-shadow: 0 0 3px 1px #b6b3b373;
-}
-
-.wordmarkWindows-2dq6rw{
-    display: none;
-}
-
-.withFrame-2dL45i {
-    background: transparent;
-    height: 10px;
-    margin-top: 0px;
-}
-
-.winButton-3UMjdg{
-    
-    width: 30px;
-    height: 40px;
-    margin-top: 30px;
-    margin-right: 30px;
-    margin-left: -20px;
-}
-
-.guilds-2JjMmN > *{
-    box-shadow: 0 0 3px 1px #b6b3b373;
-    height: 97.5%;
-    margin-top: 30%;
-    background: var(--windowscolor);
-    border-radius: 20px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-
-.platform-win .sidebar-1tnWFu {
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.content-1jQy2l,.chat-25x62K{
-    box-shadow: 0 0 3px 1px #b6b3b373;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.theme-dark .themed-Hp1KC_{
-    box-shadow: 0 0 3px 1px #b6b3b373;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 96.8%;
-}
-
-.content-1jQy2l,.chat-25x62K{
-    box-shadow: 0 0 3px 1px #b6b3b373;
-    border-radius: 20px;
-}
-
-[aria-label="Explore Discoverable Servers"]{
-    display: none;
-}
-
-.scrollableContainer-15eg7h{
-    background: var(--windowscolor);
-}
-
-.content-1jQy2l:before,.chat-25x62K:before{
-    display: none;
-}
-
-.chat-25x62K{
-    background: var(--windowscolor);
-}
-
-.messagesPopoutWrap-3zryHW,.container-2ebMPP,.container-_dQaft,.contentWrapper-3vHNP2,.contentWrapper-2f9yME,.wrapper-2vIMkT,.overlayBackground-2aa7wt,.userProfileInnerThemedNonPremium-2AJg-H,.wrapper-3u51GQ,.container-18GwIk{
-    background-color: var(--popupcolors);
-}
-
-.peopleColumn-1wMU14{
-    box-shadow: 0 0 3px 1px #b6b3b373;
-    background: var(--windowscolor);
-    margin-top: 10px;
-    margin-left: 20px;
-    height: 96.5%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-
-}
-
-.nowPlayingColumn-1eCBCN{
-    box-shadow: 0 0 3px 1px #b6b3b373;
-    background: var(--windowscolor);
-    margin-top: 10px;
-    margin-right: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    height: 96.5%;
-
-}
-
-.standardSidebarView-E9Pc3j{
-    background: var(--windowscolor);
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-[aria-label^="Add Super Reaction"],
-#message-add-reaction-1,
-#super-reaction-picker-tab,
-[class^="burstEmojiSection-"],
-[aria-label^="Reaction Picker Categories"],
-[class^="reactionDefault-"][aria-label*="super reaction"],
-[class^="reactionSelected-"][aria-label*="super reaction"],
-[class^="reactions-"] > div > [style*="background:"] {
-    display: none !important;
-}
+@import "https://mrtipson.github.io/DiscordCSS/css/server-bar.css";
+@import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
+.chat-2ZfjoI,.container-3wLKDe{background:transparent!important}
+body,body::after{background:url(https://i.imgur.com/RlYUcAN.jpg);background-size:cover}
+.theme-dark,.theme-light{--background-accent:#adadad98;--background-floating:#000000dc;--background-mentioned:var(--popupcolors);--background-mentioned-hover:var(--popupcolors);--background-message-highlight:var(--popupcolors);--background-message-hover:#22222200;--background-modifier-active:#252525dc;--background-modifier-hover:#202020dc;--background-modifier-selected:#00000080;--background-primary:#11111100;--background-secondary:#11111100;--background-secondary-alt:#11111100;--background-tertiary:transparent;--brand-500:var(--popupcolors);--brand-experiment-10a:var(--popupcolors);--font-display:Montserrat;--font-headline:Montserrat;--font-primary:Montserrat;--green-330:#504f4f65;--green-360:#b6b3b373;--green-430:#adadad;--header-primary:#adadad;--header-secondary:#848992fd;--popupcolors:#000000e7;--primary-600:#575757;--primary-630:#000000dc;--scrollbar-auto-track:transparent;--search-popout-option-fade:transparent;--search-popout-option-fade-hover:#adadad;--text-muted:#cac7ca8f;--text-normal:#ffffffc9;--windowscolor:#000000a9}
+.sidebar-1tnWFu{background:var(--windowscolor);box-shadow:0 0 3px 1px #b6b3b373;height:96.5%;margin-left:10px;margin-top:10px}
+.withFrame-2dL45i{background:transparent;height:10px;margin-top:0}
+.winButton-3UMjdg{height:40px;margin-left:-20px;margin-right:30px;margin-top:30px;width:30px}
+.guilds-2JjMmN > *{background:var(--windowscolor);border-radius:20px;box-shadow:0 0 3px 1px #b6b3b373;height:97.5%;margin-left:1px;margin-right:1px;margin-top:30%}
+.platform-win .sidebar-1tnWFu{border-radius:20px;overflow:hidden}
+.content-1jQy2l,.chat-25x62K{border-radius:20px;box-shadow:0 0 3px 1px #b6b3b373;margin:20px}
+.theme-dark .themed-Hp1KC_{border-radius:20px;box-shadow:0 0 3px 1px #b6b3b373;margin-left:20px;margin-top:10px;width:96.8%}
+.messagesPopoutWrap-3zryHW,.container-2ebMPP,.container-_dQaft,.contentWrapper-3vHNP2,.contentWrapper-2f9yME,.wrapper-2vIMkT,.overlayBackground-2aa7wt,.userProfileInnerThemedNonPremium-2AJg-H,.wrapper-3u51GQ,.container-18GwIk{background-color:var(--popupcolors)}
+.peopleColumn-1wMU14{background:var(--windowscolor);border-bottom-left-radius:20px;border-top-left-radius:20px;box-shadow:0 0 3px 1px #b6b3b373;height:96.5%;margin-left:20px;margin-top:10px}
+.nowPlayingColumn-1eCBCN{background:var(--windowscolor);border-bottom-right-radius:20px;border-top-right-radius:20px;box-shadow:0 0 3px 1px #b6b3b373;height:96.5%;margin-right:20px;margin-top:10px}
+.standardSidebarView-E9Pc3j{background:var(--windowscolor);border-radius:20px;margin:20px}
+.content-1jQy2l,.theme-dark .themed-Hp1KC_,.theme-dark .container-2IKOsH,.theme-dark .header-3xB4vB,.scrollableContainer-15eg7h,.chat-25x62K{background:var(--windowscolor)}
+.wordmarkWindows-2dq6rw,[aria-label="Explore Discoverable Servers"],.content-1jQy2l:before,.chat-25x62K:before{display:none}
