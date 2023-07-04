@@ -13,9 +13,13 @@
 	background: transparent!important;
 }
 
-.bg-1QIAus {
+.appMount-2yBXZl, body{
+	inset: 0;
+	content: "";
+        position: fixed;
 	background: url(https://i.imgur.com/RlYUcAN.jpg);
 	background-size: cover;
+	text-rendering: optimizeSpeed;
 }
 
 .theme-dark,.theme-light {
