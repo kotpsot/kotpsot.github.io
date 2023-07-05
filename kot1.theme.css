@@ -13,13 +13,14 @@
 	background: transparent!important;
 }
 
-.appMount-2yBXZl, body{
-	inset: 0;
-	content: "";
-        position: fixed;
-	background: url(https://i.imgur.com/RlYUcAN.jpg);
-	background-size: cover;
-	text-rendering: optimizeSpeed;
+body::after {
+    background: url(https://i.imgur.com/HIbl0wB.jpg);
+    background-size: cover;
+    content: "";
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: -90
 }
 
 .theme-dark,.theme-light {
