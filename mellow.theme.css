@@ -11,6 +11,12 @@
 .theme-dark{
     --header-primary: #adadad;
     --header-secondary: #848992fd;
+    --background-mentioned: #3b824929;
+    --background-mentioned-hover: #3b824929;
+    --brand-experiment-10a: #3b824929;
+    --info-warning-foreground: #3b824929;
+    --background-modifier-accent: #3b824980;
+    --background-message-highlight: #3b824929;
     --background-accent: #50a23598;
     --background-primary: none;
     --background-secondary: none;
@@ -19,8 +25,8 @@
     --theme-transparency: #232f27bd;
     --theme-background-image: url('https://i.imgur.com/t4J7gHy.gif');
     --font-size: 115%;
-    --background-message-hover: #3b824980;
-    --background-modifier-active: #3b824980;
+    --background-message-hover: #3b824929;
+    --background-modifier-active: #3b82491e;
     --background-modifier-hover: #3b824980;
     --background-modifier-selected: #3b824980;
     --font-display: Montserrat;
@@ -38,6 +44,8 @@
     --search-popout-option-fade-hover: #11111100;
     --channeltextarea-background: #11111100;
     --primary-630: #000000dc;
+    --brand-experiment: #3b824980;
+    --red-400: #3b824980;
 }
 
 
