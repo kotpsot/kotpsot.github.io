@@ -1,0 +1,110 @@
+/**
+* @name purplecat
+* @version 1
+* @description purple theme
+* @author mfb cat
+* @invite 0
+* @source https://github.com/kotpsot/kotpsot.github.io
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap);
+.theme-dark{
+    --header-primary: #adadad;
+    --header-secondary: #848992fd;
+    --background-mentioned: #613b8251;
+    --background-mentioned-hover: #613b8251;
+    --brand-experiment-10a: #613b8251;
+    --info-warning-foreground: #613b8251;
+    --background-modifier-accent: #613b8280;
+    --background-message-highlight: #613b8251;
+    --background-accent: #613b8280;
+    --background-primary: none;
+    --background-secondary: none;
+    --background-secondary-alt: none;
+    --background-tertiary: none;
+    --theme-transparency: #00000061;
+    --theme-background-image: url('https://cdn.discordapp.com/attachments/846469842701647888/1133831708102365244/wallhaven-49qdx8.png');
+    --font-size: 115%;
+    --background-message-hover: #613b8251;
+    --background-modifier-active: #613b8251;
+    --background-modifier-hover: #613b8280;
+    --background-modifier-selected: #613b8280;
+    --font-display: Montserrat;
+    --font-headline: Montserrat;
+    --font-primary: Montserrat;
+    --text-muted: #cac7ca8f;
+    --text-normal: #ffffffc9;
+    --popupcolors: #000000e7;
+    --background-floating: #000000dc;
+    --scrollbar-auto-thumb: var(--background-accent);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: var(--background-primary);
+    --scrollbar-auto-track: var(--background-primary);
+    --search-popout-option-fade: transparent;
+    --search-popout-option-fade-hover: #11111100;
+    --channeltextarea-background: #11111100;
+    --primary-630: #000000dc;
+    --brand-experiment: #613b8280;
+    --red-400: #613b8280;
+}
+
+
+/*build file starts here*/
+.chat-2ZfjoI,.container-3wLKDe,.theme-dark .container-2IKOsH,.theme-dark .header-3xB4vB,.theme-dark .themed-Hp1KC_,.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
+    background: 0 0!important
+}
+
+body {
+    background-image: var(--theme-background-image);
+    background-size: cover
+}
+
+.container-18GwIk,.container-2ebMPP,.container-_dQaft,.contentWrapper-2f9yME,.contentWrapper-3vHNP2,.messagesPopoutWrap-3zryHW,.overlayBackground-2aa7wt,.userProfileInnerThemedNonPremium-2AJg-H,.wrapper-2vIMkT,.wrapper-3u51GQ {
+    background-color: var(--popupcolors)
+}
+
+.titleBar-AC4pGV {
+    background-color: initial
+}
+
+.bg-1QIAus {
+    background-color: var(--theme-transparency)
+}
+
+html {
+    font-size: var(--font-size)!important
+}
+
+.base-2jDfDU {
+    bottom: 0;
+    left: 0!important;
+    max-width: 100%;
+    position: fixed!important;
+    right: 0;
+    top: 100px!important
+}
+
+.guilds-2JjMmN {
+    bottom: unset;
+    height: 100vw!important;
+    left: 10px;
+    position: fixed!important;
+    top: 95px;
+    transform: rotate(-90deg);
+    transform-origin: top left
+}
+
+.wrapper-2PSQCG {
+    transform: rotate(90deg)
+}
+
+[class*=listItemTooltip] {
+    position: absolute;
+    max-width: unset;
+    white-space: nowrap;
+    margin-left: -7vw;
+    top: 40px
+}
+.gradientContainer-phMG8d {
+    background-image: none;
+}
