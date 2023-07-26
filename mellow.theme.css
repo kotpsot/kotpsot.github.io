@@ -42,7 +42,7 @@
 
 
 /*build file starts here*/
-.chat-2ZfjoI,.container-3wLKDe {
+.chat-2ZfjoI,.container-3wLKDe,.theme-dark .container-2IKOsH,.theme-dark .header-3xB4vB,.theme-dark .themed-Hp1KC_,.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
     background: 0 0!important
 }
 
@@ -96,4 +96,7 @@ html {
     white-space: nowrap;
     margin-left: -7vw;
     top: 40px
+}
+.gradientContainer-phMG8d {
+    background-image: none;
 }
