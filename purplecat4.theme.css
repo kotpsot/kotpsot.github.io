@@ -1,0 +1,122 @@
+/**
+* @name purplecat
+* @version 4
+* @description purple theme
+* @author mfb cat
+* @invite 0
+* @source https://github.com/kotpsot/kotpsot.github.io
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap);
+.theme-dark{
+    --header-primary: hsl(0, 0%, 68%);
+    --header-secondary: hsla(219, 6%, 55%, 0.992);
+    --background-mentioned: hsla(272, 38%, 37%, 0.318);
+    --background-mentioned-hover: hsla(272, 38%, 37%, 0.318);
+    --brand-experiment-10a: hsla(272, 38%, 37%, 0.318);
+    --info-warning-foreground: hsla(272, 38%, 37%, 0.318);
+    --background-modifier-accent: hsla(272, 38%, 37%, 0.502);
+    --background-message-highlight: hsla(272, 38%, 37%, 0.318);
+    --background-accent: hsla(272, 38%, 37%, 0.502);
+    --background-primary: none;
+    --background-secondary: none;
+    --background-secondary-alt: none;
+    --background-tertiary: none;
+    --theme-transparency: hsla(0, 0%, 0%, 0.38);
+    --theme-background-image: url('https://cdn.discordapp.com/attachments/846469842701647888/1133831708102365244/wallhaven-49qdx8.png');
+    --font-size: 115%;
+    --background-message-hover: hsla(272, 38%, 37%, 0.318);
+    --background-modifier-active: hsla(272, 38%, 37%, 0.318);
+    --background-modifier-hover: hsla(272, 38%, 37%, 0.502);
+    --background-modifier-selected: hsla(272, 38%, 37%, 0.502);
+    --font-display: Montserrat;
+    --font-headline: Montserrat;
+    --font-primary: Montserrat;
+    --text-muted: hsla(300, 3%, 79%, 0.561);
+    --text-normal: hsla(0, 0%, 100%, 0.788);
+    --popupcolors: hsla(0, 0%, 0%, 0.906);
+    --background-floating: hsla(0, 0%, 0%, 0.863);
+    --scrollbar-auto-thumb: var(--background-accent);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: var(--background-primary);
+    --scrollbar-auto-track: var(--background-primary);
+    --search-popout-option-fade: transparent;
+    --search-popout-option-fade-hover: hsla(0, 0%, 7%, 0);
+    --channeltextarea-background: hsla(0, 0%, 7%, 0);
+    --primary-630: hsla(0, 0%, 0%, 0.863);
+    --brand-experiment: hsla(272, 38%, 37%, 0.502);
+    --status-danger: hsl(273, 51%, 43%);
+    --button-positive-background: hsla(272, 38%, 37%, 0.502);
+    --button-positive-background-hover: hsl(273, 51%, 43%);
+    --button-positive-background-active: hsl(273, 51%, 43%);
+    --button-positive-background-disabled: hsl(273, 51%, 43%);
+    --status-positive-background: hsl(273, 51%, 43%);
+    --brand-experiment-600: hsl(273, 51%, 43%);
+    --brand-experiment-560: hsl(273, 51%, 43%);
+    --brand-experiment-360: hsl(273, 51%, 43%);
+    --text-link: hsl(273, 83%, 65%);
+    --green-360: hsl(273, 51%, 43%);
+    --text-positive: hsl(273, 83%, 65%);
+    --saturation-factor: hsl(273, 51%, 43%);
+}
+
+
+/*build file starts here*/
+[class*=callContainer-HtHELf],.theme-dark .pageWrapper-2PwDoS,.chat-2ZfjoI,.container-3wLKDe,.theme-dark .container-2IKOsH,.theme-dark .header-3xB4vB,.theme-dark .themed-Hp1KC_,.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
+    background: 0 0!important
+}
+
+body {
+    background-image: var(--theme-background-image);
+    background-size: cover
+}
+
+.container-18GwIk,.container-2ebMPP,.container-_dQaft,.contentWrapper-2f9yME,.contentWrapper-3vHNP2,.messagesPopoutWrap-3zryHW,.overlayBackground-2aa7wt,.userProfileInnerThemedNonPremium-2AJg-H,.wrapper-2vIMkT,.wrapper-3u51GQ {
+    background-color: var(--popupcolors)
+}
+
+.titleBar-AC4pGV {
+    background-color: initial
+}
+
+.bg-1QIAus {
+    background-color: var(--theme-transparency)
+}
+
+html {
+    font-size: var(--font-size)!important
+}
+
+.base-2jDfDU {
+    bottom: 0;
+    left: 0!important;
+    max-width: 100%;
+    position: fixed!important;
+    right: 0;
+    top: 100px!important
+}
+
+.guilds-2JjMmN {
+    bottom: unset;
+    height: 100vw!important;
+    left: 10px;
+    position: fixed!important;
+    top: 95px;
+    transform: rotate(-90deg);
+    transform-origin: top left
+}
+
+.wrapper-2PSQCG {
+    transform: rotate(90deg)
+}
+
+[class*=listItemTooltip] {
+    position: absolute;
+    max-width: unset;
+    white-space: nowrap;
+    margin-left: -7vw;
+    top: 40px
+}
+.gradientContainer-phMG8d {
+    background-image: none;
+}
