@@ -9,7 +9,7 @@
 
 @import "https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap";
 
-.theme-dark {
+.theme-dark,.theme-light {
     --header-primary: hsl(0,0%,68%);
     --header-secondary: hsla(219,6%,55%,0.992);
     --background-mentioned: var(--color1);
@@ -60,6 +60,9 @@
     --text-link: rgb(201, 114, 37);
     --green-360: var(--color2);
     --text-positive: var(--color2);
+    --button-secondary-background: var(--color1);
+    --button-secondary-background-hover: var(--color2);
+    --button-secondary-background-active: var(--color2);
 }
 
 [class*=callContainer-HtHELf],.theme-dark .pageWrapper-2PwDoS,.chat-2ZfjoI,.container-3wLKDe,.theme-dark .container-2IKOsH,.theme-dark .header-3xB4vB,.theme-dark .themed-Hp1KC_,.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
@@ -124,4 +127,12 @@ html {
 
 .gradientContainer-phMG8d {
     background-image: none
+}
+
+.root-1CAIjD,.theme-light .footerSeparator-3U8YsT{
+    background-color: transparent;
+}
+
+.defaultColor-1GKx81{
+    color: hsl(0, 0%, 100%);
 }
