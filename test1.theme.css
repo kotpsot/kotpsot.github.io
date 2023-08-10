@@ -16,14 +16,15 @@ hmtl {
 .theme-dark,
 .theme-light {
   /* Main */
+  --header-primary: hsl(0,0%,68%);
   --background-primary: transparent;
   --background-secondary: transparent;
   --background-secondary-alt: transparent;
   --background-tertiary: transparent;
   --background-floating: rgba(237, 10, 10, 0.983);
   /* Scrollbars */
-  --scrollbar-auto-thumb: rgba(0, 0, 0, 0);
-  --scrollbar-auto-track: rgb(0, 0, 0);
+  --scrollbar-auto-thumb: rgb(103, 21, 21);
+  --scrollbar-auto-track: rgba(0, 0, 0, 0);
   /* User popout */
   --profile-body-background-color: transparent;
 
