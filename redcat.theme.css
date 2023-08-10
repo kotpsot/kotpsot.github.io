@@ -1,0 +1,80 @@
+/**
+ * @name JJ-VP edited
+ * @author JJ-VP edit by kot
+ * @version 1.0.1
+ * @description test kot theme
+ * @source https://github.com/kotpsot/kotpsot.github.io/edit/main/kot.theme.css
+ * @updateUrl https://raw.githubusercontent.com/kotpsot/kotpsot.github.io/main/kot.theme.css
+*/
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap";
+@import "https://mrtipson.github.io/DiscordCSS/css/server-bar.css";
+
+:root,
+.theme-dark,
+.theme-light {
+  /* Main */
+  --header-primary: hsl(0,0%,68%);
+  --background-primary: transparent;
+  --background-secondary: transparent;
+  --background-secondary-alt: transparent;
+  --background-tertiary: transparent;
+  --background-floating: rgba(237, 10, 10, 0.983);
+  /* Scrollbars */
+  --scrollbar-auto-thumb: rgb(103, 21, 21);
+  --scrollbar-auto-track: rgba(0, 0, 0, 0);
+  /* User popout */
+  --profile-body-background-color: transparent;
+
+  /* Misc */
+  --modal-background: transparent;
+  --modal-footer-background: transparent;
+  --font-display: Montserrat;
+  --font-headline: Montserrat;
+  --font-primary: Montserrat;
+  --background-modifier-active: var(--color1);
+  --background-modifier-hover: var(--color1);
+  --background-modifier-selected: var(--color1);
+  --background-mentioned: var(--color1);
+  --background-mentioned-hover: var(--color1);
+  --background-message-highlight: var(--color1);
+  --color1: rgba(189, 48, 48, 0.332);
+  --color2: rgb(185, 31, 31);
+  --search-popout-option-fade: rgb(60, 1, 1) !important;
+  --search-popout-option-fade-hover: rgb(60, 1, 1) !important;
+  --text-link: rgb(201, 114, 37);
+  --text-muted: rgba(203, 200, 203, 0.561);
+  --text-normal: rgba(255, 255, 255, 0.788);
+}
+
+/* Background image */
+.appMount-2yBXZl {
+  background-size: cover !important;
+  background: linear-gradient(rgba(46, 14, 14, 0.75), rgba(0, 0, 0, 0.858)),
+    /*Change the alpha of both to dim the background */
+      url("https://i.imgur.com/vGzwfeH.jpg") no-repeat center; /*Change the url to any image you want */
+}
+
+/* Discord why are you like this */
+/* Stuff that doesn't get its color from a variable */
+.chat-2ZfjoI>*, .chat-2ZfjoI>*>* /* Stuff that "overwrites" the chat window such as server Q&A / Community search */ {
+  background: transparent !important;
+}
+
+/* User popout roles */
+.role-2TIOKu {
+  border: 1px solid;
+  border-color: hsla(0, 0%, 100%, 0.2) !important;
+}
+
+/* Dim stuff */
+.layer-2BGhQ8:not(.disabledPointerEvents-cGr1My)>*>*, /* Popouts */
+  .background-2avFV1, /* Bunch of background */
+  .connectionHeader-Ixbb1s, .connectionOptionsWrapper-3aVWcp, .integrationsWrapper-1V-5L9, .metadataContainer-35U-On, .connectContainer-1hylYM, /* Connection menu */
+  .replugged-quickcss-wrapper, /* Quick CSS */
+  .scrollableContainer-15eg7h, .autocomplete-3NRXG8, /* Message area */
+  .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi), /* Folder background */
+  .grid-1aWVsE, .wrapper-1FP9YQ, /* Embeds */
+  .scrollbarGhostHairline-2LpzZ9, .inline /* Code blocks */ {
+  background-color: rgb(60, 1, 1) !important;
+}
