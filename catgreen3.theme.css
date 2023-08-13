@@ -1,0 +1,119 @@
+/**
+* @name green cat
+* @version 1
+* @description green cat
+* @author mfb cat
+* @invite 0
+* @source https://github.com/kotpsot/kotpsot.github.io
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap);
+
+.theme-dark{
+    --borders: rgba(22, 130, 74, 0.445) 2px outset;
+    --header-primary: #adadad;
+    --header-secondary: #848992fd;
+    --background-mentioned: rgba(22, 130, 74, 0.445);
+    --background-mentioned-hover: rgba(22, 130, 74, 0.445);
+    --brand-experiment-10a: rgba(22, 130, 74, 0.445);
+    --info-warning-foreground: rgba(22, 130, 74, 0.445);
+    --background-modifier-accent: rgba(22, 130, 74, 0.445);
+    --background-message-highlight: rgba(22, 130, 74, 0.445);
+    --background-accent: rgba(22, 130, 74, 0.445);
+    --background-primary: rgba(0, 0, 0, 0.078);
+    --background-secondary: rgba(0, 0, 0, 0.4);
+    --background-secondary-alt: rgba(0, 0, 0, 0.4);
+    --background-tertiary: rgba(0, 0, 0, 0.4);
+    --font-size: 115%;
+    --background-message-hover: rgba(22, 130, 74, 0.445);
+    --background-modifier-active: rgba(22, 130, 74, 0.445);
+    --background-modifier-hover: rgba(22, 130, 74, 0.445);
+    --background-modifier-selected: rgba(22, 130, 74, 0.445);
+    --font-display: Montserrat;
+    --font-headline: Montserrat;
+    --font-primary: Montserrat;
+    --text-muted: #cac7ca8f;
+    --text-normal: #ffffffc9;
+    --text-link: rgba(22, 130, 74, 0.592);
+    --background-floating: #000000dc;
+    --scrollbar-auto-thumb: var(--background-accent);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: var(--background-primary);
+    --scrollbar-auto-track: var(--background-primary);
+    --search-popout-option-fade: transparent;
+    --search-popout-option-fade-hover: #11111100;
+    --channeltextarea-background: rgba(22, 130, 74, 0.445);
+    --primary-630: #000000dc;
+    --brand-experiment: rgba(22, 130, 74, 0.445);
+    --red-400: rgba(22, 130, 74, 0.445)
+}
+
+body {
+    background-image: url(https://files.catbox.moe/afus73.jpg);
+    background-size: cover
+}
+
+html {
+    font-size: var(--font-size)!important
+}
+
+.icon-2xnN2Y {
+    color: var(--accent)!important
+}
+
+* {
+    border-radius: 0!important
+}
+
+.scrollerBase-1Pkza4::-webkit-scrollbar-thumb,.scrollerBase-1Pkza4::-webkit-scrollbar-track,.webkit-QgSAqd::-webkit-scrollbar-thumb {
+    border-radius: 0
+}
+
+.activitySectionAssets-1wpe42 .largeImageMask-2KA28T,.assetWrapperMasked-1iw9lV,.assetsLargeMaskStreamPreview--ugZjW,.assetsLargeMaskUserPopout-3N96A8,.assetsLargeMaskUserPopoutV2-2oZjbP,.assetsLargeMaskVoiceChannel-3IlDCA,.inspectedIndicator-27zwNZ,.loadingIndicator-3fKdTZ,.mask-2Me5HY rect,foreignObject[mask*="url(#"] {
+    mask: none;
+    -webkit-mask: none
+}
+
+.chat-2ZfjoI,.container-2o3qEW,.container-3wLKDe,.member-48YF_l,.members-3WRCEx,.membersWrap-3NUR2t,.theme-dark .container-2IKOsH,.theme-dark .header-3xB4vB,.theme-dark .themed-Hp1KC_,.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
+    background-color: transparent!important
+}
+
+.container-2McqkF,.content-1jQy2l,.contentWrapper-3vHNP2,.scroller-nxCRu_,.theme-dark .autocomplete-3NRXG8,.userProfileInnerThemedNonPremium-2AJg-H {
+    border: var(--borders)
+}
+
+[aria-label=Pomoc] {
+    display: none
+}
+
+.base-2jDfDU {
+    bottom: 0;
+    left: 0!important;
+    max-width: 100%;
+    position: fixed!important;
+    right: 0;
+    top: 100px!important
+}
+
+.guilds-2JjMmN {
+    background-color: transparent!important;
+    bottom: unset;
+    height: 100vw!important;
+    left: 10px;
+    position: fixed!important;
+    top: 95px;
+    transform: rotate(-90deg);
+    transform-origin: top left
+}
+
+.wrapper-2PSQCG {
+    transform: rotate(90deg)
+}
+
+[class*=listItemTooltip] {
+    position: absolute;
+    max-width: unset;
+    white-space: nowrap;
+    margin-left: -7vw;
+    top: 40px
+}
