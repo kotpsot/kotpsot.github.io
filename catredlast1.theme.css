@@ -45,11 +45,13 @@
     --primary-600: var(--background-tertiary);
     --primary-630: rgba(0, 0, 0, 0.863);
     --brand-experiment: rgba(130, 42, 22, 0.445);
+    --brand-600: rgba(130, 42, 22, 0.445);
     --brand-experiment-560: rgba(130, 42, 22, 0.445);
     --red-400: rgba(196, 31, 31, 0.838);
     --green-330: rgb(223, 38, 38);
     --green-360: rgb(223, 38, 38);
-    --green-430: rgba(196, 31, 31, 0.838)
+    --green-430: rgba(196, 31, 31, 0.838);
+    --green-500: rgba(130, 42, 22, 0.445);
 }
 
 #app-mount {
@@ -166,4 +168,9 @@ html {
 .container-2cd8Mz,.tabBody-2dgbAs {
     margin-right: 0;
     border-bottom-right-radius: 20px
+}
+
+.accountProfilePopoutWrapper-3GskID {
+    position: relative;
+    left: 0px;
 }
