@@ -6,10 +6,11 @@
  * @source https://github.com/kotpsot/kotpsot.github.io/edit/main/catred01.theme.css
  * @updateUrl https://raw.githubusercontent.com/kotpsot/kotpsot.github.io/main/catred01.theme.css
 */
+
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap);
 
 .theme-dark,:root {
-    --borders: rgba(130, 42, 22, 0.756) 2px solid;
+    --borders: rgb(130, 42, 22) 2px solid;
     --header-primary: rgb(173, 173, 173);
     --header-secondary: rgba(132, 137, 146, 0.992);
     --background-mentioned: rgba(130, 42, 22, 0.445);
@@ -135,7 +136,7 @@ html {
     transform: rotate(90deg)
 }
 
-.container-3XgAHv,.chat-1rZYgu,.content-1jQy2l,.grid-21dB-S,.tabBody-2dgbAs,.theme-dark .container-2IKOsH {
+.container-3XgAHv,.chat-1rZYgu,.content-1jQy2l,.tabBody-2dgbAs,.theme-dark .container-2IKOsH {
     background-color: rgba(19,7,0,.75)!important
 }
 
