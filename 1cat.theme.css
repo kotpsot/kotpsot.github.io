@@ -34,6 +34,7 @@
     --font-display: Montserrat;
     --font-headline: Montserrat;
     --font-primary: Montserrat;
+    --channel-icon: rgba(202, 199, 202, 0.561);
     --text-muted: rgba(202, 199, 202, 0.561);
     --text-normal: rgba(255, 255, 255, 0.788);
     --text-link: rgba(228, 47, 47, 0.592);
@@ -46,6 +47,7 @@
     --search-popout-option-fade: transparent;
     --search-popout-option-fade-hover: rgba(17, 17, 17, 0);
     --channeltextarea-background: rgba(130, 42, 22, 0.445);
+    --primary-400: rgba(130, 42, 22, 0.445);
     --primary-430: rgba(130, 42, 22, 0.445);
     --primary-530: rgba(130, 42, 22, 0.445);
     --primary-500: rgba(130, 42, 22, 0.445);
@@ -58,6 +60,8 @@
     --brand-600: rgba(130, 42, 22, 0.445);
     --brand-experiment-560: rgba(130, 42, 22, 0.445);
     --red-400: rgba(196, 31, 31, 0.838);
+    --red-430: rgba(130, 42, 22, 0.445);
+    --red-500: rgba(130, 42, 22, 0.445);
     --green-330: rgb(223, 38, 38);
     --green-360: rgb(223, 38, 38);
     --green-430: rgba(196, 31, 31, 0.838);
@@ -96,12 +100,12 @@ html {
     margin-left: -20px
 }
 
-[class*=callContainer-HtHELf],.rowContainer-3t7486,.header-1sd0RU,.container-x8Y1ix,.pageWrapper-2PwDoS,.resizeHandle-PBRzPC,.footer-5ji8u1,.mentioned-Tre-dv:before,.pageBody-23bo4p,.container-1um7CU,.container-2IKOsH,.header-3xB4vB,.wrapper-3z7DuG,.header-3_zmOb,.header-1w9Q93,.accountProfileCard-lbN7n-,.wrapper-22rqw6,.wrapper-1gVUIN,.guilds-2JjMmN,.forumOrHome-2VTX6r,.focused-2FU0YH,.app-2CXKsg,.container-1oAagU,.container-3wLKDe,.fieldList-in8WkP,.member-48YF_l,.members-3WRCEx,.membersWrap-3NUR2t,.panels-3wFtMD,.privateChannels-oVe7HL,.searchBar-jGtisZ,.searchBarComponent-3N7dCG,.theme-dark .emptyPage-2TGR7j,.theme-dark .scrollerContainer-y16Rs9,.wrapper-1gVUIN.chatSidebarOpen--YCxhs {
+[class*=callContainer-HtHELf],.searchHeader-1r_ZSh,.rowContainer-3t7486,.header-1sd0RU,.container-x8Y1ix,.pageWrapper-2PwDoS,.resizeHandle-PBRzPC,.footer-5ji8u1,.mentioned-Tre-dv:before,.pageBody-23bo4p,.container-1um7CU,.container-2IKOsH,.header-3xB4vB,.wrapper-3z7DuG,.header-3_zmOb,.header-1w9Q93,.accountProfileCard-lbN7n-,.wrapper-22rqw6,.wrapper-1gVUIN,.guilds-2JjMmN,.forumOrHome-2VTX6r,.focused-2FU0YH,.app-2CXKsg,.container-1oAagU,.container-3wLKDe,.fieldList-in8WkP,.member-48YF_l,.members-3WRCEx,.membersWrap-3NUR2t,.panels-3wFtMD,.privateChannels-oVe7HL,.searchBar-jGtisZ,.searchBarComponent-3N7dCG,.theme-dark .emptyPage-2TGR7j,.theme-dark .scrollerContainer-y16Rs9,.wrapper-1gVUIN.chatSidebarOpen--YCxhs {
     background-color: transparent!important
 }
 
-.rootWithShadow-2hdL2J,.container-_dQaft,.container-2ebMPP,.messagesPopoutWrap-3zryHW,.contentWrapper-2f9yME,.wrapper-2vIMkT,.contentWrapper-3vHNP2,.browser-mnQ1T7{
-    background-color: var(--background-floating);
+.searchFilter-2UfsDk,.rootWithShadow-2hdL2J,.container-_dQaft,.container-2ebMPP,.messagesPopoutWrap-3zryHW,.contentWrapper-2f9yME,.wrapper-2vIMkT,.contentWrapper-3vHNP2,.browser-mnQ1T7{
+    background-color: var(--background-floating)!important;
 }
 
 .innerHeader-1cC3Fp:after{
@@ -112,7 +116,7 @@ html {
     background-image: none;
 }
 
-.content-1jQy2l:before,.animatedContainer-2laTjx, .bannerImage-ubW8K-{
+.replying-eZ7p5z:before,.content-1jQy2l:before,.animatedContainer-2laTjx, .bannerImage-ubW8K-{
     display: none;
 }
 
@@ -145,7 +149,7 @@ html {
     transform: rotate(90deg)
 }
 
-.mentioned-Tre-dv,.message-2CShn3:hover{
+.mentioned-Tre-dv,.message-2CShn3:hover,.replying-eZ7p5z{
     border-radius: 20px;
 }
 
@@ -156,14 +160,23 @@ html {
     background-color: black;
 }
 
+.accountProfilePopoutWrapper-3GskID{
+    left: 0;
+}
+
 .container-1Lk8p7{
     background-color: black
 }
 
-.close-A4ZfTI,.text-sm-normal-AEQz4v,.sampleLink-5BWNy9,.formTitle-2YQyhj,.rowText-3MQqQi,.backButton-2Ps-B8,.title-OdeD-o,.title-1LqMUp,.placeholder-1rCBhr,.text-PdAsFQ,.footerTitle-3Bslxi,.text-md-medium-2n7Vn5, .text-md-normal-2rFCH3,.title-1_TkpU,.text-xs-bold-9jfMvZ{
+.lookLink-13iF2K.colorPrimary-2-Lusz,.close-A4ZfTI,.text-sm-normal-AEQz4v,.sampleLink-5BWNy9,.formTitle-2YQyhj,.rowText-3MQqQi,.backButton-2Ps-B8,.title-OdeD-o,.title-1LqMUp,.placeholder-1rCBhr,.text-PdAsFQ,.footerTitle-3Bslxi,.text-md-medium-2n7Vn5, .text-md-normal-2rFCH3,.title-1_TkpU,.text-xs-bold-9jfMvZ{
     color: rgba(255, 255, 255, 0.788)!important;
 }
 
 .footer-IubaaS{
     background-color: black
 }
+
+.container-1QtPKm{
+    background-color: rgb(223, 38, 38)!important;
+}
+
