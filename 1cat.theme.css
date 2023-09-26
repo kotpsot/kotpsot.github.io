@@ -47,7 +47,7 @@
     --search-popout-option-fade: transparent;
     --search-popout-option-fade-hover: rgba(17, 17, 17, 0);
     --channeltextarea-background: rgba(130, 42, 22, 0.445);
-    --primary-400: rgba(130, 42, 22, 0.445);
+    --primary-400: rgb(223, 38, 38);
     --primary-430: rgba(130, 42, 22, 0.445);
     --primary-530: rgba(130, 42, 22, 0.445);
     --primary-500: rgba(130, 42, 22, 0.445);
@@ -179,4 +179,3 @@ html {
 .container-1QtPKm{
     background-color: rgb(223, 38, 38)!important;
 }
-
