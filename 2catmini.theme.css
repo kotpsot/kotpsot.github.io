@@ -14,6 +14,7 @@
 @import url(https://kotpsot.github.io/windows-titlebar.css);
 
 .theme-dark {
+    --background-accent: rgba(63,63,194,0.489);
     --background-primary: rgba(0,0,0,0);
     --background-secondary: rgba(0,0,0,0);
     --background-secondary-alt: rgba(0,0,0,0);
@@ -156,3 +157,4 @@ html {
 .theme-dark .autocomplete-3NRXG8 {
     background-color: var(--background-floating)
 }
+
