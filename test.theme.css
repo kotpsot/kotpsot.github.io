@@ -18,7 +18,7 @@
     --background-primary: rgba(0,0,0,0);
     --background-secondary: rgba(0,0,0,0);
     --background-secondary-alt: rgba(0,0,0,0);
-    --background-tertiary: rgba(0,0,0,0);
+    --background-tertiary: rgba(0, 0, 0, 0);
     --background-floating: rgba(0,0,0,0.863);
     --background-modifier-hover: rgba(63,63,194,0.489);
     --background-modifier-active: rgba(63,63,194,0.489);
@@ -55,10 +55,19 @@
     --HSL-server-spacing: 5px
 }
 
-body {
-    animation: none!important;
-    transition: none!important;
-    background: 50%/cover no-repeat url(https://files.catbox.moe/fi14pl.png)
+.app-1BipOi,
+body,
+.bg-1QIAus {
+    background-color: transparent;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    background: url(https://files.catbox.moe/fi14pl.png) center/cover no-repeat;
 }
 
 html {
