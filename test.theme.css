@@ -1,78 +1,154 @@
 /**
- * @name JJ-VP edited
- * @author JJ-VP edit by kot
+ * @name kot discord theme
+ * @author kotpsot
  * @version 1.0.1
- * @description test kot theme
- * @source https://github.com/kotpsot/kotpsot.github.io/edit/main/kot.theme.css
- * @updateUrl https://raw.githubusercontent.com/kotpsot/kotpsot.github.io/main/kot.theme.css
+ * @description do dokończenia
+ * @source https://github.com/kotpsot/kotpsot.github.io/edit/main/1cat.theme.css
+ * @updateUrl https://raw.githubusercontent.com/kotpsot/kotpsot.github.io/main/1cat.theme.css
 */
 
-@import "https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap";
-@import "https://mrtipson.github.io/DiscordCSS/css/server-bar.css";
-hmtl {
-    font-size: var(--font-size)!important;
-}
-:root,
-.theme-dark,
-.theme-light {
-  /* Main */
-  --background-primary: transparent;
-  --background-secondary: transparent;
-  --background-secondary-alt: transparent;
-  --background-tertiary: transparent;
-  --background-floating: rgba(237, 10, 10, 0.983);
-  /* Scrollbars */
-  --scrollbar-auto-thumb: rgba(0, 0, 0, 0);
-  --scrollbar-auto-track: rgb(0, 0, 0);
-  /* User popout */
-  --profile-body-background-color: transparent;
+@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap);
 
-  /* Misc */
-  --modal-background: transparent;
-  --modal-footer-background: transparent;
-  --font-display: Montserrat;
-  --font-headline: Montserrat;
-  --font-primary: Montserrat;
-  --background-modifier-active: var(--color1);
-  --background-modifier-hover: var(--color1);
-  --background-modifier-selected: var(--color1);
-  --background-mentioned: var(--color1);
-  --background-mentioned-hover: var(--color1);
-  --color1: rgba(189, 48, 48, 0.332);
-  --color2: rgb(185, 31, 31);
-  --font-size: 115%;
-  --search-popout-option-fade: rgb(60, 1, 1) !important;
-  --search-popout-option-fade-hover: rgb(60, 1, 1) !important;
-}
+@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);
 
-/* Background image */
-.appMount-2yBXZl {
-  background-size: cover !important;
-  background: linear-gradient(rgba(46, 14, 14, 0.75), rgba(0, 0, 0, 0.858)),
-    /*Change the alpha of both to dim the background */
-      url("https://i.imgur.com/vGzwfeH.jpg") no-repeat center; /*Change the url to any image you want */
-}
+@import url(https://kotpsot.github.io/windows-titlebar.css);
 
-/* Discord why are you like this */
-/* Stuff that doesn't get its color from a variable */
-.chat-2ZfjoI>*, .chat-2ZfjoI>*>* /* Stuff that "overwrites" the chat window such as server Q&A / Community search */ {
-  background: transparent !important;
+.theme-dark {
+    --background-accent: rgba(63,63,194,0.489);
+    --background-primary: rgba(0,0,0,0);
+    --background-secondary: rgba(0,0,0,0);
+    --background-secondary-alt: rgba(0,0,0,0);
+    --background-tertiary: rgba(0,0,0,0);
+    --background-floating: rgba(0,0,0,0.863);
+    --background-modifier-hover: rgba(63,63,194,0.489);
+    --background-modifier-active: rgba(63,63,194,0.489);
+    --background-modifier-selected: rgba(63,63,194,0.489);
+    --background-modifier-accent: rgba(63,63,194,0.489);
+    --background-mentioned: rgba(63,63,194,0.489);
+    --background-mentioned-hover: rgba(63,63,194,0.489);
+    --background-message-hover: rgba(63,63,194,0.489);
+    --background-message-highlight: rgba(63,63,194,0.489);
+    --background-message-highlight-hover: rgba(63,63,194,0.489);
+    --font-size: 125%;
+    --font-display: JetBrains Mono;
+    --font-headline: JetBrains Mono;
+    --font-primary: JetBrains Mono;
+    --header-primary: rgba(152,152,209,0.995);
+    --header-secondary: rgba(152,152,209,0.995);
+    --text-normal: rgba(255,255,255,0.788);
+    --text-default: rgba(221,221,221,0.762);
+    --text-muted: rgba(221,221,221,0.762);
+    --text-link: rgba(152,152,209,0.995);
+    --interactive-normal: #bbb;
+    --interactive-hover: #eee;
+    --interactive-active: #fff;
+    --interactive-muted: rgb(106,106,106);
+    --scrollbar-auto-thumb: rgba(63,63,194,0.489);
+    --scrollbar-thin-thumb: rgba(63,63,194,0.489);
+    --scrollbar-thin-track: rgba(0,0,0,0);
+    --scrollbar-auto-track: rgba(0,0,0,0);
+    --search-popout-option-fade: transparent;
+    --search-popout-option-fade-hover: rgba(17,17,17,0);
+    --channeltextarea-background: rgba(63,63,194,0.489);
+    --text-positive: rgb(139,139,255);
+    --HSL-server-icon-size: 50px;
+    --HSL-server-spacing: 5px
 }
 
-/* User popout roles */
-.role-2TIOKu {
-  border: 1px solid;
-  border-color: hsla(0, 0%, 100%, 0.2) !important;
+#app-mount {
+    animation: none!important;
+    transition: none!important;
+    background: 50%/cover no-repeat url(https://files.catbox.moe/n5bjas.png)
 }
 
-/* Dim stuff */
-.layer-2BGhQ8:not(.disabledPointerEvents-cGr1My)>*>*, /* Popouts */
-  .background-2avFV1, /* Bunch of background */
-  .connectionHeader-Ixbb1s, .connectionOptionsWrapper-3aVWcp, .integrationsWrapper-1V-5L9, .metadataContainer-35U-On, .connectContainer-1hylYM, /* Connection menu */
-  .replugged-quickcss-wrapper, /* Quick CSS */
-  .scrollableContainer-15eg7h, .autocomplete-3NRXG8, /* Message area */
-  .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi), /* Folder background */
-  .grid-1aWVsE, .wrapper-1FP9YQ, /* Embeds */
-  .scrollbarGhostHairline-2LpzZ9, .inline /* Code blocks */ {
-  background-color: rgb(60, 1, 1) !important;
+html {
+    font-size: var(--font-size)!important
+}
+
+.username-h_Y3Us {
+    font-weight: 500
+}
+
+.unreadRelevant-2f-VSK,.theme-dark .children-3xh0VB:after,.chat-25x62K:before,.content-18rAwf:before,.tabBody-2dgbAs:before,.replying-eZ7p5z:before,.content-1jQy2l:before,.animatedContainer-2laTjx,.content-yjf30S [style="height: 84px;"],.bannerImage-ubW8K-,.animatedBannerHoverLayer-129r1v {
+    display: none
+}
+
+.theme-dark .pageWrapper-eg3-6i,.callContainer-HtHELf,.applicationStore-2nk7Lo,.searchHeader-1r_ZSh,.rowContainer-3t7486,.header-1sd0RU,.container-x8Y1ix,.pageWrapper-2PwDoS,.resizeHandle-PBRzPC,.footer-5ji8u1,.mentioned-Tre-dv:before,.pageBody-23bo4p,.container-1um7CU,.container-2IKOsH,.header-3xB4vB,.wrapper-3z7DuG,.header-3_zmOb,.header-1w9Q93,.accountProfileCard-lbN7n-,.wrapper-22rqw6,.wrapper-1gVUIN,.guilds-2JjMmN,.forumOrHome-2VTX6r,.focused-2FU0YH,.app-2CXKsg,.container-1oAagU,.container-3wLKDe,.fieldList-in8WkP,.member-48YF_l,.members-3WRCEx,.membersWrap-3NUR2t,.panels-3wFtMD,.privateChannels-oVe7HL,.searchBar-jGtisZ,.searchBarComponent-3N7dCG,.theme-dark .emptyPage-2TGR7j,.theme-dark .scrollerContainer-y16Rs9,.wrapper-1gVUIN.chatSidebarOpen--YCxhs,.theme-dark .page-2dwf_i,.theme-dark .container-2qjEOK {
+    background-color: transparent!important
+}
+
+.searchFilter-2UfsDk,.rootWithShadow-2hdL2J,.container-_dQaft,.container-2ebMPP,.messagesPopoutWrap-3zryHW,.contentWrapper-2f9yME,.wrapper-2vIMkT,.contentWrapper-3vHNP2,.browser-mnQ1T7 {
+    background-color: var(--background-floating)!important
+}
+
+.innerHeader-1cC3Fp:after {
+    background: transparent!important
+}
+
+.gradientContainer-phMG8d {
+    background-image: none
+}
+
+.theme-light .footerSeparator-3U8YsT,.searchBar-3TnChZ,.header-3OsQeK {
+    box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.selected-2LX7Jy,.mentioned-Tre-dv,.replying-eZ7p5z {
+    margin-left: 5px;
+    border-radius: 20px
+}
+
+.userPopoutInner-nv9Y92 {
+    border-radius: 4px;
+    height: calc(100% - 8px);
+    width: 100%;
+    background-color: #000;
+    size: 1200px
+}
+
+.userPopoutOverlayBackground-3A0Pcz {
+    max-height: 60vh
+}
+
+.accountProfilePopoutWrapper-Ag_Fip {
+    left: 0
+}
+
+.container-1Lk8p7,.footer-IubaaS,.popout-15UxD6,.selectOption-GKp9VY,.option-Uc12mm.focused-10mbp-,.option-Uc12mm:focus,.option-Uc12mm:hover {
+    background-color: #000
+}
+
+.lookLink-13iF2K.colorPrimary-2-Lusz,.close-A4ZfTI,.sampleLink-5BWNy9,.formTitle-2YQyhj,.rowText-3MQqQi,.backButton-2Ps-B8,.title-OdeD-o,.title-1LqMUp,.placeholder-1rCBhr,.text-PdAsFQ,.footerTitle-3Bslxi,.text-md-medium-2n7Vn5,.text-md-normal-2rFCH3,.title-1_TkpU,.text-xs-bold-9jfMvZ {
+    color: rgba(255,255,255,.788)!important
+}
+
+.theme-dark .searchAnswer-23w-CH,.container-1QtPKm {
+    background-color: rgba(0,213,255,.509)!important
+}
+
+.replyBar-1oi75v {
+    background: var(--channeltextarea-background)
+}
+
+.lookInverted-2GrLaB.colorBrand-2M3O3N:active,.lookInverted-2GrLaB.colorBrand-2M3O3N,.lookInverted-2GrLaB.colorBrand-2M3O3N:hover {
+    background-color: rgba(0,213,255,.509);
+    color: rgba(255,255,255,.788)!important
+}
+
+.input-3O04eu {
+    color: rgba(0,213,255,.509)!important
+}
+
+.header-1RJoTb {
+    background-color: #000;
+    border-radius: 20px
+}
+
+.theme-dark .autocomplete-3NRXG8 {
+    background-color: var(--background-floating)
+}
+
+.theme-dark .inset-SbsSFp{
+    background-color: rgba(63,63,194,0.489);
 }
