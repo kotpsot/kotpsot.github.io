@@ -55,10 +55,10 @@
     --HSL-server-spacing: 5px
 }
 
-#app-mount {
+body {
     animation: none!important;
     transition: none!important;
-    background: 50%/cover no-repeat url(https://files.catbox.moe/n5bjas.png)
+    background: 50%/cover no-repeat url(https://files.catbox.moe/fi14pl.png)
 }
 
 html {
