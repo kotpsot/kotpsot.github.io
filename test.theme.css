@@ -9,10 +9,6 @@
 
 @import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap);
 
-@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);
-
-@import url(https://kotpsot.github.io/windows-titlebar.css);
-
 .theme-dark {
     --background-accent: rgba(63,63,194,0.489);
     --background-primary: rgba(0,0,0,0);
@@ -51,8 +47,6 @@
     --search-popout-option-fade-hover: rgba(17,17,17,0);
     --channeltextarea-background: rgba(63,63,194,0.489);
     --text-positive: rgb(139,139,255);
-    --HSL-server-icon-size: 50px;
-    --HSL-server-spacing: 5px
 }
 
 .app-1BipOi,
@@ -68,6 +62,20 @@ body::before {
     pointer-events: none;
     z-index: -1;
     background: url(https://files.catbox.moe/fi14pl.png) center/cover no-repeat;
+}
+
+* {
+    -o-transition-property: none!important;
+    -moz-transition-property: none!important;
+    -ms-transition-property: none!important;
+    -webkit-transition-property: none!important;
+    transition-property: none!important;
+    -webkit-animation: none!important;
+    -moz-animation: none!important;
+    -o-animation: none!important;
+    -ms-animation: none!important;
+    animation: none!important;
+    transition: none!important;
 }
 
 html {
@@ -160,4 +168,45 @@ html {
 
 .theme-dark .inset-SbsSFp{
     background-color: rgba(63,63,194,0.489);
+}
+
+.chatContent-2O4SXb {
+    background-color: rgba(0,0,0,.304);
+    border-radius: 20px;
+    border: rgb(63,63,194) 2px solid
+}
+
+.base-2jDfDU {
+    bottom: 0;
+    left: 0!important;
+    max-width: 100%;
+    position: fixed!important;
+    right: 0;
+    top: 95.3px!important
+}
+
+.guilds-2JjMmN {
+    bottom: unset;
+    height: 100vw!important;
+    left: 0;
+    position: fixed!important;
+    top: 85px;
+    transform: rotate(-90deg);
+    transform-origin: top left
+}
+
+.wrapper-2PSQCG {
+    transform: rotate(90deg)
+}
+
+.wordmarkWindows-1rsity {
+    display: none
+}
+
+.winButton-3SigSb {
+    width: 30px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: -20px
 }
